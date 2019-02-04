@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="386.0" prefWidth="587.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="balancasaudavel.service.ScoreController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@score.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="player" layoutX="104.0" layoutY="126.0" prefHeight="17.0" prefWidth="354.0" />
+      <Button fx:id="BtVoltar" layoutX="23.0" layoutY="347.0" mnemonicParsing="false" text="Voltar" />
+      <Label fx:id="Carboidrato" layoutX="197.0" layoutY="167.0" prefHeight="17.0" prefWidth="284.0" />
+      <Label fx:id="Proteina" layoutX="197.0" layoutY="193.0" prefHeight="17.0" prefWidth="284.0" />
+      <Label fx:id="GorduraTotal" layoutX="197.0" layoutY="219.0" prefHeight="17.0" prefWidth="284.0" />
+      <Label layoutX="96.0" layoutY="167.0" text="Carboidrato" />
+      <Label layoutX="106.0" layoutY="193.0" text="Proteina" />
+      <Label layoutX="86.0" layoutY="219.0" text="Gorduras Totais" />
+      <Text fx:id="Dicas" layoutX="170.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="291.13671875" />
+   </children>
+</AnchorPane>
